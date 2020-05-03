@@ -4,6 +4,6 @@
 def getOutput():
     outFile = ""
     
-    print("please enter the output csv file name (with .csv): ", end = "")
+    print("\nplease enter the output csv file name (with .csv): ", end = "")
     outFile = input()
     return outFile

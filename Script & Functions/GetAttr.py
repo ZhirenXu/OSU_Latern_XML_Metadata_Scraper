@@ -1,6 +1,8 @@
 import sys
 
 ## match attributes with their tag and find it in parsed xml, return attri value
+# @param    isBypassed
+#           a bool value indicates if error is ignored
 # @param    desiredAttr
 #           a list contain attributes client want
 # @param    tagAttrDict
@@ -8,7 +10,7 @@ import sys
 #           DesiredAttr is gurantee to be in this dict
 # @return   attribValueList
 #           a list for all attrib values required
-def getAttr(desiredAttr, tagAttrDict):
+def getAttr(isBypassed, desiredAttr, tagAttrDict):
     attrValue = ""
     attribValueList = []
     
@@ -18,9 +20,13 @@ def getAttr(desiredAttr, tagAttrDict):
             if (attr in attribTuplesDict):
                 attrValue = attribTuplesDict[attr]
                 attribValueList.append(attrValue)
-    if(len(attribValueList) == 0):
-        print("Could not find any keywords! Press enter to exit.")
+    if(len(attribValueList) == 0 and (not isBypassed)):
+        print("Could not find any keywords in this xml! \nPress enter to ignore once. Press Q to exit.")
         key = input()
-        sys.exit()
-
+        if (key == "Q" or key == "q"):
+            sys.exit()
+    elif(len(attribValueList) == 0 and isBypassed):
+        print("Could not find any keywords in this xml. Bypassed")
+    else:
+        print("Complete")
     return attribValueList
