@@ -1,6 +1,6 @@
 import xml.etree.ElementTree as ET
-import ParseXML
-import GetAttr
+from functions import ParseXML
+from functions import GetAttr
 
 ## the main process of scrap
 # @param    isBypassed

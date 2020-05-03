@@ -1,4 +1,4 @@
-import CountXML
+from functions import CountXML
 
 ## read all xml from current directory and report result
 # @return   xmlList
