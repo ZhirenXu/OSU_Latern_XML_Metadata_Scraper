@@ -1,4 +1,4 @@
-import GetTagAttr
+from functions import GetTagAttr
 
 ## parse xml file and get all tag-attri tuples
 # @param    tree
