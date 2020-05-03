@@ -1,15 +1,15 @@
 # XML Scrapper for Lantern Archieve v1.1.0
 
-# Change log:
+## Change log:
 
-## 	accomondate errors so program can keep running even if input file is incorrect
-## 	change the instruction output
-## 	allow user to choose what to do when fail to get attributes
-## 	fix typo
+Accomondate errors so program can keep running even if input file is incorrect  
+Change the instruction output  
+Allow user to choose what to do when fail to get attributes  
+Fix typo  
 
-## Note: All test file is in "file" folder. Copy them to "package" folder for trial run.
+### Note: All test file is in "file" folder. Copy them to "package" folder for trial run.
 
-# Instruction:
+## Instruction:
 
 	0. Copy all target xml files under "package" folder
 	
