@@ -7,7 +7,7 @@ Change the instruction output
 Allow user to choose what to do when fail to get attributes  
 Fix typo  
 
-### Note: All test file is in "file" folder. Copy them to "package" folder for trial run.
+### Note: All test file is in "file" folder. Copy them to "Script & Function" folder for trial run.
 
 ## Instruction:
 
