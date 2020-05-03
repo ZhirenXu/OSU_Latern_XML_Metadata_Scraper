@@ -1,13 +1,11 @@
-# XML Scrapper for Lantern Archieve v1.1.0
+# XML Scrapper for Lantern Archieve v1.1.1
 
 ## Change log:
 
-Accomondate errors so program can keep running even if input file is incorrect  
-Change the instruction output  
-Allow user to choose what to do when fail to get attributes  
-Fix typo  
+Use universal greeting class  
+Separate functions with main  
 
-### Note: All test file is in "file" folder. Copy them to "package" folder for trial run.
+### Note: All test file is in "Test File" folder. Copy them to "Script & Function" folder for trial run.
 
 ## Instruction:
 
