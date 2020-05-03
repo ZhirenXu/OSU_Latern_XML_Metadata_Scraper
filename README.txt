@@ -1,4 +1,4 @@
-##XML Scrapper for Latern Archieve v1.0.0
+#XML Scrapper for Latern Archieve v1.0.0
 
 ##Instruction:
 	0. Copy all target xml files under "package" folder
